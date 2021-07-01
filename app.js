@@ -7,15 +7,10 @@ if (confirm("IS that ur first time here!")) {
 var person = prompt("Please enter your name", "Your name");
 var text;
 if (person == null || person == "") {
-  text = "User cancelled the prompt.";
+  alert("User cancelled the prompt.");
 } else {
-  text = "Hello " + person + "! How are you today?";
+ alert("Hellow  how are you today!" + person);
   
 }
 
-if (person != null || person != "")
-{
-alert("Hellow  how are you today!" + person);
-
-}
 
