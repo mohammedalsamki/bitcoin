@@ -13,10 +13,16 @@ if (person == null || person == "") {
 
 }
 
-var favcrypto = prompt("what is ur favcrybto", "ETHER , cardano , BNB")
+
+var favcrypto = prompt("what is ur favcrybto", "ETHER , cardano , BNB");
+
+while (favcrypto != "ETHER" && favcrypto != "cardano" && favcrypto != "BNB" ){
+  favcrypto = prompt("what is ur favcrybto", "ETHER , cardano , BNB");
+}
 
 
- if (favcrypto == "ETHER") {
+
+if (favcrypto == "ETHER") {
   var text = prompt("how many coin u want to see ");
   while (text > 10) {
     text = prompt(" please write num less than 10 ");
