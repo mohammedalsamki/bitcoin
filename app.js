@@ -16,7 +16,7 @@ if (person == null || person == "") {
 
 var favcrypto = prompt("what is ur favcrybto", "ETHER , cardano , BNB");
 
-while (favcrypto != "ETHER" && favcrypto != "cardano" && favcrypto != "BNB" ){
+while (favcrypto != "ETHER" && favcrypto != "cardano" && favcrypto != "BNB") {
   favcrypto = prompt("what is ur favcrybto", "ETHER , cardano , BNB");
 }
 
